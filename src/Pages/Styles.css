@@ -1,0 +1,84 @@
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+        
+  }
+  
+  label[type=label-style]{
+    display: flex;
+    font-size: larger;
+  justify-content: center;
+  font-style: italic;
+  font-weight: bolder;
+  }
+  
+  input[type=submit] {
+    width: 60%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  /* .vertical-form input{
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .vertical-form label {
+    margin-bottom: 10px; 
+  } */
+   
+  .vertical-form{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+     gap: 15px;  
+
+  }
+ .h1-style{
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-weight: bolder;
+
+ }
+ .h3-style{
+  display: flex;
+ 
+  font-style: italic;
+  font-weight: bolder;
+
+ }
+
+  .myBtnContainer{
+    
+    font-weight: bold;
+    display: flex;
+     gap: 15px;  
+    align-items: flex-start;
+    width: "100%";
+    }
+
+  
